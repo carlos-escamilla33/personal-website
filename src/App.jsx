@@ -1,9 +1,10 @@
-import { Header } from "./components/index";
+import { Header, Navbar } from "./components/index";
 
 function App() {
 
   return (
     <>
+      <Navbar />
       <Header />
     </>
   )

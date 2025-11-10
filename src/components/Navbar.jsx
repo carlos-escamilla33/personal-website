@@ -2,7 +2,7 @@ import {useState} from "react";
 import {Menu, X} from "lucide-react";
 
 const Navbar = () => {
-    const navItems = ["Home", "About", "Projects", "Contact"];
+    const navItems = ["About", "Projects", "Contact"];
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
