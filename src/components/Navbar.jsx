@@ -10,10 +10,10 @@ const Navbar = () => {
     }
 
     return(
-        <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="max-w-7xl mx-auto px-4 md:px-40">
             <div className="flex justify-between items-center h-16">
                 <div className="flex-shrink-0">
-                    <a href="#" className="text-2xl font-bold ">Carlos Escamilla</a>
+                    <a href="#" className="text-2xl font-bold text-gray-300 ">Carlos Escamilla</a>
                 </div>
 
                 <div className="hidden md:flex items-center space-x-8">

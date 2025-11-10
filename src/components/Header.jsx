@@ -3,15 +3,23 @@ import headshot from "../assets/headshot.jpeg";
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <img src={headshot} alt="" className="w-30 h-30 rounded-full border-4 border-red-400"/>
+    <div className="flex flex-col items-center justify-center pt-20 mx-4 md:mx-50 md:flex-row">
+      <div className="p-[2px] rounded-full bg-gradient-to-tr from-blue-500 via-white to-red-600">
+        <div className="p-1 bg-black rounded-full">
+          <img
+            src={headshot}
+            alt="Carlos Escamilla"
+            className="w-40 h-auto rounded-full object-cover"
+          />
+        </div>
       </div>
-      <div>
-        <p>
-          Hey, I'm Carlos. I'm a Senior Computer Science student @ CSU East Bay
-          and Full Stack Developer
-        </p>
+      <div className="p-4">
+        <span className="text-3xl">
+          Hey, I'm Carlos.
+        </span>
+        <span className="text-2xl p-2 text-gray-300">
+            I'm a senior Computer Science student @ CSU East Bay
+        </span>
       </div>
     </div>
   );
