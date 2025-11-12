@@ -14,11 +14,11 @@ const Header = () => {
         </div>
       </div>
       <div className="p-4">
-        <span className="text-3xl">
+        <span className="cursor-pointer text-3xl hover:text-blue-600">
           Hey, I'm Carlos.
         </span>
         <span className="text-2xl p-2 text-gray-300">
-            I'm a senior Computer Science student @ CSU East Bay
+            I'm a senior Computer Science student @ California State University, East Bay
         </span>
       </div>
     </div>
