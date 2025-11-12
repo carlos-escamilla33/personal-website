@@ -4,12 +4,12 @@ import headshot from "../assets/headshot.jpeg";
 const Header = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-20 mx-4 md:mx-50 md:flex-row">
-      <div className="p-[2px] rounded-full bg-gradient-to-tr from-blue-500 via-white to-red-600">
+      <div className="p-[2px] rounded-full bg-gradient-to-tr from-purple-500 to-blue-600">
         <div className="p-1 bg-black rounded-full">
           <img
             src={headshot}
             alt="Carlos Escamilla"
-            className="w-40 h-auto rounded-full object-cover"
+            className="w-40 h-auto rounded-full"
           />
         </div>
       </div>
