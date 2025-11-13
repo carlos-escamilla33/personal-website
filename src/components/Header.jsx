@@ -1,5 +1,5 @@
-import { Navbar } from "./index";
 import headshot from "../assets/headshot.jpeg";
+import Icons from "./Icons";
 
 const Header = () => {
   return (
@@ -14,12 +14,14 @@ const Header = () => {
         </div>
       </div>
       <div className="p-4">
-        <span className="cursor-pointer text-3xl hover:text-blue-600">
+        <span className="font-bold cursor-pointer text-3xl hover:text-blue-600 transition-colors duration-200">
           Hey, I'm Carlos.
         </span>
         <span className="text-2xl p-2 text-gray-300">
-            I'm a senior Computer Science student @ California State University, East Bay
+          I'm a senior Computer Science student @ California State University,
+          East Bay
         </span>
+        <Icons />
       </div>
     </div>
   );

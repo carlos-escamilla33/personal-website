@@ -1,4 +1,4 @@
-import { Header, Navbar } from "./components/index";
+import { Header, Navbar, Projects, Icons } from "./components/index";
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <Projects />
     </>
   )
 }
