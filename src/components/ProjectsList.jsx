@@ -19,18 +19,18 @@ const projectNames = [
     {
         id: 3,
         title: "MobMentality",
-        desription: "Responsive website for local San Jose band with integrated music streaming and fan engagement"
+        description: "Responsive website for local San Jose band with integrated music streaming and fan engagement"
     }
 ]
 
 const ProjectsList = () => {
 
     return (
-        <div className="flex justify-center pt-2">
+        <div className="flex flex-col justify-center items-center pt-2">
             <div className="text-3xl">
                 <h3>Projects</h3>
             </div>
-            <div className="flex min-h-screen items-center justify-center">
+            <div className="flex pt-10">
                 {
                     projectNames.map((project, index) => {
                         return <Project key={index} title={project["title"]} description={project["description"]}/>
