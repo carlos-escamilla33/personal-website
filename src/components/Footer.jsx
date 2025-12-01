@@ -17,8 +17,8 @@ const Footer = () => {
               <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
             </svg>
 
-            <span className="text-heading self-center text-2xl font-semibold whitespace-nowrap hover:text-blue-600 transition-colors duration-200">
-              Email Me
+            <span target="_blank" className="text-heading self-center text-2xl font-semibold whitespace-nowrap hover:text-blue-600 transition-colors duration-200">
+              carlosaescamilla3@gmail.com
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-body sm:mb-0">
