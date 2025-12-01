@@ -1,17 +1,53 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built to showcase my projects, skills, and background as a software engineer.  
+The site is designed as a clean, single-page layout with smooth navigation and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo  
+👉 **https://your-website-link.com**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+### 🏠 Home / Hero Section
+![Hero Screenshot](./src/assets/Home.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# personal-website
+### 👤 About Me Section
+![About Screenshot](./src/assets/AboutMe.png)
+
+### 📂 Projects Section
+![Projects Screenshot](./src/assets/Projects.png)
+
+### 📬 Contact Section
+![Contact Screenshot](./src/assets/Footer.png)
+
+### 📱 Responsiveness
+![Mobile View](./src/assets/Mobile.png)
+![Mobile Menu](./src/assets/mobileMenu.png)
+
+> Create a folder named `screenshots` in your repo and drop your images in there.  
+> You can use `.png`, `.jpg`, or `.webp`.
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Framework/Libraries:** React, Tailwind CSS
+- **Deployment:** GitHub Pages
+
+---
+
+## ✨ Features
+
+- Smooth single-page layout  
+- Clean and modern UI  
+- Mobile responsive  
+- Projects showcase  
+- About + Skills + Contact sections  
+- Quick navigation links  
+
+---
