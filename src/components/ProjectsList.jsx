@@ -32,7 +32,7 @@ const projectNames = [
     {
         id: 3,
         title: "MobMentality",
-        description: "Responsive website for local San Jose band with integrated music streaming and fan engagement",
+        description: "Responsive website for local San Jose, CA band with integrated music streaming and fan engagement",
         source: mobHomePageImg,
         link: "https://github.com/carlos-escamilla33/MobMentality",
         techStack: ["React.js", "Tailwind", "EmailJS", "Netlify"]
