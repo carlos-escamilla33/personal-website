@@ -1,4 +1,4 @@
-const Project = ({ title, description, source, link }) => {
+const Project = ({ title, description, source, link, techStack}) => {
   return (
     <a href={link}>
       <div className="relative overflow-hidden rounded-lg shadow-lg group cursor-pointer h-64">
@@ -13,9 +13,9 @@ const Project = ({ title, description, source, link }) => {
             <p className="text-sm">{description}</p>
           </div>
           <div class="flex flex-col px-6 pt-4 pb-2">
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">photography</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">travel</span>
-                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">winter</span>
+                {
+                    techStack.map((tech, index) => <span key={index} class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tech}</span>)
+                }
             </div>
         </div>
       </div>

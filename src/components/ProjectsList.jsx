@@ -26,14 +26,16 @@ const projectNames = [
         title: "Analysis of ML Based Robotic Anomany Detection",
         description: "Analyzed a robotic anomaly detection paper and proposed a performance improvement",
         source: dAlgorithmImg,
-        link: "https://github.com/carlos-escamilla33/machine_learning_project"
+        link: "https://github.com/carlos-escamilla33/machine_learning_project",
+        techStack: ["Python", "Autoencoder", "D* Algorithm", "Logistic Regression", "SVM"]
     },
     {
         id: 3,
         title: "MobMentality",
         description: "Responsive website for local San Jose band with integrated music streaming and fan engagement",
         source: mobHomePageImg,
-        link: "https://github.com/carlos-escamilla33/MobMentality"
+        link: "https://github.com/carlos-escamilla33/MobMentality",
+        techStack: ["React.js", "Tailwind", "EmailJS", "Netlify"]
     }
 ]
 
@@ -48,7 +50,8 @@ const ProjectsList = () => {
                 {
                     projectNames.map((project, index) => {
                         return <Project key={index} title={project.title}
-                         description={project.description} source={project.source} link={project.link}/>
+                         description={project.description} source={project.source}
+                          link={project.link} techStack={project.techStack}/>
                     }
                 )}
             </div>
