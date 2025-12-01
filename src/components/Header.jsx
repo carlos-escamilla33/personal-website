@@ -18,8 +18,7 @@ const Header = () => {
           Hey, I'm Carlos.
         </span>
         <span className="text-2xl p-2 text-gray-300">
-          I'm a senior Computer Science student @ California State University,
-          East Bay
+          I'm a Computer Science graduate from California State University, East Bay (2025).
         </span>
         <Icons />
       </div>
