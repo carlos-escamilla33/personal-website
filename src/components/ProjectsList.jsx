@@ -42,7 +42,7 @@ const projectNames = [
 const ProjectsList = () => {
 
     return (
-        <div id="projects" className="flex flex-col justify-center items-center pt-2 pb-10">
+        <div id="projects" className="flex flex-col justify-center items-center pt-2 pb-10 max-w-5xl mx-auto px-4">
             <div className="text-3xl text-gray-300">
                 <h3>Projects</h3>
             </div>

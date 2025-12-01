@@ -51,7 +51,7 @@ const Footer = () => {
         <hr className="my-6 border-default sm:mx-auto lg:my-8" />
         <span className="block text-sm text-body sm:text-center">
           © 2025{" "}
-          <a href="https://flowbite.com/" className="hover:underline">
+          <a className="hover:underline">
             Carlos Escamilla
           </a>
         </span>

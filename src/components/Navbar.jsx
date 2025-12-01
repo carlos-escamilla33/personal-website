@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const navItems = ["About", "Projects", "Contact"];
+  const navItems = ["About", "Skills", "Projects", "Contact", "Resume"];
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="max-w-7xl mx-auto px-4 relative z-50 md:px-40">
+    <nav className="max-w-8xl mx-auto px-4 relative z-50 md:px-40">
       <div className="flex justify-between items-center h-16">
         <div className="flex-shrink-0">
           <a href="#" className="text-2xl font-bold text-gray-300">
@@ -22,7 +22,7 @@ const Navbar = () => {
           {navItems.map((item) => {
             return (
               <a
-                href={`#${item.toLowerCase()}`}
+                href={item == "Resume" ? "https://drive.google.com/file/d/1WexMriQx11O019ONgxDy4XmU3ihtpTt5/view?usp=sharing" :`#${item.toLowerCase()}`}
                 key={item}
                 className="text-gray-300 hover:text-blue-600 transition-colors duration-200 font-medium"
               >

@@ -1,4 +1,4 @@
-import { Header, Navbar, ProjectsList, Footer} from "./components/index";
+import { Header, Navbar, ProjectsList, Footer, SkillList} from "./components/index";
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
     <>
       <Navbar />
       <Header />
+      <SkillList />
       <ProjectsList />
       <Footer />
     </>
