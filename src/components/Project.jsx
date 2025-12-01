@@ -1,38 +1,25 @@
-// {/* <div className="relative overflow-hidden rounded-lg shadow-lg group cursor-pointer">
-//   {/* Image */}
-//   <img
-//     src="your-image.jpg"
-//     alt="Project"
-//     className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
-//   />
-
-//   {/* Overlay - hidden by default, shows on hover */}
-//   <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-80 transition-all duration-300 flex items-center justify-center">
-//     <div className="text-white p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center">
-//       <h3 className="text-2xl font-bold mb-2">Project Title</h3>
-//       <p className="text-sm mb-4">Brief description of your research or project</p>
-//       <button className="px-4 py-2 bg-white text-black rounded hover:bg-gray-200">
-//         View Details
-//       </button>
-//     </div>
-//   </div>
-// </div> */}
-const Project = ({ title, description, source }) => {
+const Project = ({ title, description, source, link }) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg group cursor-pointer">
-      <img
-        src={source}
-        alt=""
-        className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
-      />
-      <div className="inset-0 bg-opacity-0 group-hover:bg-opacity-80 transition-all duration-300 items-center justify-center">
-        <div className="text-white p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-center">
-          <h3 className="text-2xl font-bold mb-2">{title}</h3>
-          <p className="text-sm mb-4">{description}</p>
+    <a href={link}>
+      <div className="relative overflow-hidden rounded-lg shadow-lg group cursor-pointer h-64">
+        <img
+          src={source}
+          alt={title}
+          className="w-full h-full object-cover rounded-lg shadow-lg"
+        />
+        <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+          <div className="text-gray-300 p-6 text-center">
+            <h3 className="text-2xl font-bold mb-2">{title}</h3>
+            <p className="text-sm">{description}</p>
+          </div>
+          <div class="flex flex-col px-6 pt-4 pb-2">
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">photography</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">travel</span>
+                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">winter</span>
+            </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 };
-
 export default Project;
